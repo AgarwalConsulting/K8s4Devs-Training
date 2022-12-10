@@ -6,7 +6,7 @@ layout: true
 
 class: center, middle
 
-# {title}
+# Kubernetes for Application Developers
 
 Gaurav Agarwal
 
@@ -44,7 +44,7 @@ func main() {
 class: center, middle
 
 Code
-https://github.com/algogrit/presentation-template
+https://github.com/algogrit/presentation-kubernetes-for-application-developers
 
 Slides
-https://template.slides.algogrit.com
+https://kubernetes-for-application-developers.slides.algogrit.com

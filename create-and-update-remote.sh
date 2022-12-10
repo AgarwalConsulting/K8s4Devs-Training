@@ -14,7 +14,7 @@ gsed -i s/template/$kebab_title/g slides.md
 cname=`cat CNAME`
 
 git remote remove origin
-hub create -d "Presentation for $title" -h "https://$cname" presentation-$kebab_title
+hub create -d "Content for training: $title" -h "https://$cname" AgarwalConsulting/K8s4Devs-Training
 
 git add .
 
