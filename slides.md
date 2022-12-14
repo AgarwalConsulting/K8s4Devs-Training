@@ -14,6 +14,8 @@ Gaurav Agarwal
 
 # Agenda
 
+- Kubernetes is a *Silver Bullet*
+
 ---
 
 class: center, middle
