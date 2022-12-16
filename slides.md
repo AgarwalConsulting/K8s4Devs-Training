@@ -628,11 +628,11 @@ ServiceTypes control the way in which a service is exposed.
 ---
 class: center, middle
 
-#### Exercise: Review & deploy the remaining RVStore applications
+*Hands-on*: Review & deploy the remaining RVStore applications
 
 ---
 
-#### Exercise: Service continued
+*Hands-on*: Service continued
 
 - Can we access the service from our own computer at `http://localhost:<node-port>`?
 
@@ -1303,7 +1303,7 @@ class: center, middle
 
 ---
 
-###### Exercise: `roles`
+*Optional Exercise*: `roles`
 
 Let’s create a role that will give testuser access to limited functionality.
 
@@ -1325,7 +1325,7 @@ Let’s create a role that will give testuser access to limited functionality.
 
 ---
 
-###### Exercise: `rolebindings`
+*Optional Exercise*: `rolebindings`
 
 Let’s tie the Role we created in the last lab to our testuser.
 
