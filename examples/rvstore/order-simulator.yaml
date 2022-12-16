@@ -26,7 +26,7 @@ spec:
             memory: 20Mi
           limits:
             cpu: 500m
-            memory: 100Mi
+            memory: 300Mi
         envFrom:
         - configMapRef:
             name: rvstore-config
