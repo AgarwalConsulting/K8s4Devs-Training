@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: demo-job
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+      - name: ubuntu
+        image: ubuntu
+        resources: {}
+        args:
+          - /usr/bin/bash
+          - -c
+          - echo "busy work"; sleep 1000

@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dynamic-config
+  namespace: default
+data:
+  THIS_IS_A_VALUE: this can be any value
+  THIS_IS_A_FILE: |
+    # Or even multiline value or content,
+    # like a `yaml` file
+    HELLO: WORLD
+    NEW_KEY: NEW_VALUE
+  THIS_IS_A_NEW_KEY: NEW_VALUE
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dynamic-pod
+spec:
+  containers:
+    - name: test-container
+      image: ubuntu
+      command: [ "/bin/sh", "-c", "sleep 1000" ]
+      volumeMounts:
+      - name: config-volume
+        mountPath: /etc/config
+      resources: {}
+  volumes:
+    - name: config-volume
+      configMap:
+        # Provide the name of the ConfigMap containing the files you want
+        # to add to the container
+        name: dynamic-config

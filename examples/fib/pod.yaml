@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fib
+spec:
+  containers:
+  - image: agarwalconsulting/fib-gen
+    name: generator
+    resources:
+      requests:
+        cpu: 100m
+        memory: 20Mi
+      limits:
+        cpu: 500m
+        memory: 100Mi
+    env:
+      - name: DURATION
+        value: "3"
+
+        # valueFrom:
+        #   secretKeyRef:
+        #     name: fib-secret
+        #     key: duration
+        #   configMapKeyRef:
+        #     name: fib-config
+        #     key: duration
