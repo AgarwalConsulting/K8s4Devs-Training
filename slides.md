@@ -415,7 +415,7 @@ class: center, middle
 ---
 class: center, middle
 
-##### Demo: Defining a replicaset for `fibonacci`
+*Demo*: Defining a replicaset for `fibonacci`
 
 ---
 class: center, middle
@@ -664,7 +664,7 @@ Services most commonly abstract access to Kubernetes Pods, but they can also abs
 ---
 class: center, middle
 
-##### Demo: Exposing an externally running service within the cluster
+*Demo*: Exposing an externally running service within the cluster
 
 ---
 class: center, middle
@@ -703,21 +703,21 @@ class: center, middle
 ---
 class: center, middle
 
-##### Demo: Ingress Controller
+*Demo*: Ingress Controller
 
 Let's deploy [`nginx-ingress` controller](https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/), using `helm`
 
 ---
 class: center, middle
 
-##### Demo: Ingress
+*Demo*: Ingress
 
 Review an existing [ingress resource](https://github.com/algogrit/yaes-server/blob/master/devops/k8s/ingress.yaml)
 
 ---
 class: center, middle
 
-##### Exercise: Configure an ingress for RVStore
+*Optional Hands-on*: Configure an ingress for RVStore
 
 ---
 class: center, middle
@@ -1229,7 +1229,7 @@ class: center, middle
 ---
 class: center, middle
 
-###### Demo: JWT API in [Go](https://github.com/AgarwalConsulting/Go-Training/tree/master/examples/11-A-01-net/auth/jwt)
+*Demo*: JWT API in [Go](https://github.com/AgarwalConsulting/Go-Training/tree/master/examples/11-A-01-net/auth/jwt)
 
 ---
 
@@ -1287,7 +1287,7 @@ class: center, middle
 ---
 class: center, middle
 
-###### Demo: [Creating a user](https://github.com/AgarwalConsulting/K8s4Devs-Training/tree/master/notes/rbac.md)
+*Demo*: [Creating a user](https://github.com/AgarwalConsulting/K8s4Devs-Training/tree/master/notes/rbac.md)
 
 ---
 
