@@ -1362,7 +1362,7 @@ class: center, middle
 class: center, middle
 
 Code
-https://github.com/algogrit/presentation-kubernetes-for-application-developers
+https://github.com/AgarwalConsulting/K8s4Devs-Training
 
 Slides
-https://kubernetes-for-application-developers.slides.algogrit.com
+https://kubernetes-for-application-developers.slides.agarwalconsulting.io
