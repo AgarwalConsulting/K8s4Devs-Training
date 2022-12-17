@@ -348,7 +348,6 @@ class: center, middle
 #### Natively Supported Controllers (`kind` field)
 
 - ReplicaSet
-- ReplicationController
 - Deployments
 - StatefulSets
 - DaemonSet
